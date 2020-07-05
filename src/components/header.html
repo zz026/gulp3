@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- 兼容ie8媒体查询 -->
+	<!--[if lte IE 8]>
+			<script src="./js/lib/html5shiv.min.js"></script>
+			<script src="./js/lib/respond.min.js"></script>
+		<![endif]-->
+	<title>{{title}}-gulp搭建脚手架</title>
+	<link rel="stylesheet" href="./css/lib/reset.min.css">
+	<link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+	{{if env == 'dev'}}
+		<p
+			id="top-tips"
+			style="background-color:blueviolet;color: #fff;line-height: 30px;
+			text-align: center;font-size: 20px;"
+		>开发环境 (双击关闭)</p>
+
+		<script>
+			document.getElementById("top-tips").addEventListener("dblclick", function() {
+				this.style = 'display:none;'
+			});
+		</script>
+	{{ /if }}
+
+	<!-- 头部结束 -->

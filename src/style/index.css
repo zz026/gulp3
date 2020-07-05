@@ -1,0 +1,10 @@
+#box {
+  background-color: #4e8219;
+  color: #fff;
+  padding: 20px;
+  width: 400px;
+  font-size: 30px; }
+  #box span {
+    display: block;
+    margin-top: 30px;
+    color: burlywood; }

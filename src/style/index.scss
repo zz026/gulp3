@@ -1,0 +1,16 @@
+$bg: #4e8219;
+$color: #fff;
+
+
+#box {
+	background-color: $bg;
+	color: $color;
+	padding: 20px;
+	width: 400px;
+	font-size: 30px;
+	span {
+		display: block;
+		margin-top: 30px;
+		color: burlywood;
+	}
+}
