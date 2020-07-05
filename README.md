@@ -25,5 +25,4 @@ gulp使用3.9.1版本
 		gulp-rename // 重命名  
 		open // 自动打开窗口  
 		gulp-if // 用于判断是否执行  
-		gulp-imagemin // 压缩图片  
-	>
+		gulp-imagemin // 压缩图片
