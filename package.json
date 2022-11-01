@@ -9,7 +9,7 @@
     "art-template": "^4.13.2",
     "babel-preset-es2015": "^6.24.1",
     "cross-env": "^7.0.2",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-babel": "^8.0.0",
     "gulp-clean": "^0.4.0",
